@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  /*font-family: Arial, Helvetica, sans-serif;*/
+}
+
+.navbar.navbar-light.navbar-expand-md {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-right: 0px;
+}
+
+.navbar-light .navbar-brand {
+  background: url(../../assets/img/logo_newyork.png) no-repeat;
+  background-size: cover;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+  color: #ff0093;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ff0093;
+  font-family: 'Amaranth';
+  font-weight: 450;
+  font-size: 15px;
+}
+
+@media (min-width: 300px) {
+  #promo {
+    text-align: center;
+    padding: 40px;
+    background: url(../../assets/img/gifs/jumbotronBGXS3.gif) no-repeat;
+    background-size: cover;
+    padding-top: 0px;
+    height: 300px;
+  }
+}
+
+@media (min-width: 576px) {
+  #promo {
+    text-align: center;
+    padding: 40px;
+    background: url(../../assets/img/gifs/jumbotronBGSM.gif) no-repeat;
+    background-size: cover;
+    padding-top: 0px;
+    height: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  #promo {
+    text-align: center;
+    padding: 40px;
+    background: url(../../assets/img/gifs/jumbotronBGMD.gif) no-repeat;
+    background-size: cover;
+    padding-top: 0px;
+    height: 300px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #promo {
+    text-align: center;
+    padding: 40px;
+    background: url(../../assets/img/gifs/burger.gif) no-repeat;
+    background-size: cover;
+    padding-top: 0px;
+  }
+}
+
+#promo .jumbotron {
+  border-radius: 20px;
+  padding: 40px;
+  background-color: rgba(255,255,255,0.75);
+  max-width: 800px;
+  margin: 0 auto;
+  height: 100px;
+}
+
+@media (min-width: 991px) {
+  #promo .jumbotron {
+    padding: 20px;
+  }
+}
+
+.headers {
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 200;
+  font-style: italic;
+  padding: 10px;
+}
+
+#cartaDiv {
+  /*padding-bottom: 10px;*/
+  /*background-color: rgba(181,181,181,0.08);*/
+}
+
+.NuestraCarta {
+  text-align: center;
+  color: #007aa5;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-style: italic;
+  padding: 10px;
+}
+
+#rowMedio {
+  padding: 10px;
+}
+
+.columnaPostres {
+  /*padding-bottom: 10px;*/
+}
+
+#nosotros {
+  padding-bottom: 0px;
+}
+
+.headerNosotros {
+  color: #ff0093;
+  font-weight: 100;
+  font-family: 'Amaranth';
+  text-align: center;
+}
+
+.textoNosotros {
+  color: #007aa5;
+}
+
+.columTlfDom {
+  /*padding-top: 15px;*/
+  padding-bottom: 10px;
+}
+
+.restoDomicilio {
+  /*background-color: rgba(181,181,181,0.08);*/
+}
+
+.container.contRestoDomicilio {
+  padding-top: 10px;
+}
+
+.headerPedidos {
+  text-align: center;
+  color: black;
+  margin-bottom: 5px;
+  font-family: 'Amaranth';
+}
+
+.sinGastosTlf {
+  font-family: 'Amaranth';
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
